@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8" pages="2">
   <diagram name="DIGRAMA DE SECUENCIAS" id="On7p-KFjAMd6os99zSuo">
     <mxGraphModel dx="1707" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,7 +66,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2HEXqUqmtZ--2Ej-Ksmd" name="DIAGRAMAS DE ACTIVIDADES">
-    <mxGraphModel dx="208" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="607" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,17 +124,8 @@
         <mxCell id="oKcWqDr5QkF45wVMTvJz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="oKcWqDr5QkF45wVMTvJz-1" source="oKcWqDr5QkF45wVMTvJz-14" target="oKcWqDr5QkF45wVMTvJz-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oKcWqDr5QkF45wVMTvJz-6" value="SSAP&amp;nbsp;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
+        <mxCell id="oKcWqDr5QkF45wVMTvJz-6" value="Miembro del equipo" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="930" y="320" width="1330" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="oKcWqDr5QkF45wVMTvJz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="oKcWqDr5QkF45wVMTvJz-6" source="oKcWqDr5QkF45wVMTvJz-23" target="oKcWqDr5QkF45wVMTvJz-25" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oKcWqDr5QkF45wVMTvJz-23" value="Notificar al usuario&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="oKcWqDr5QkF45wVMTvJz-6" vertex="1">
-          <mxGeometry x="1110" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oKcWqDr5QkF45wVMTvJz-25" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="oKcWqDr5QkF45wVMTvJz-6" vertex="1">
-          <mxGeometry x="1280" y="60" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="oKcWqDr5QkF45wVMTvJz-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="oKcWqDr5QkF45wVMTvJz-10" target="oKcWqDr5QkF45wVMTvJz-7" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -153,6 +144,18 @@
               <mxPoint x="2110" y="240" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="khvwO8cPdbeW_409O5pb-1" value="Notificacion" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="930" y="480" width="1330" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="oKcWqDr5QkF45wVMTvJz-23" value="Notificar al usuario&amp;nbsp;" style="whiteSpace=wrap;html=1;" parent="khvwO8cPdbeW_409O5pb-1" vertex="1">
+          <mxGeometry x="1120" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oKcWqDr5QkF45wVMTvJz-25" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="khvwO8cPdbeW_409O5pb-1" vertex="1">
+          <mxGeometry x="1280" y="60" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oKcWqDr5QkF45wVMTvJz-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="khvwO8cPdbeW_409O5pb-1" source="oKcWqDr5QkF45wVMTvJz-23" target="oKcWqDr5QkF45wVMTvJz-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8" pages="2">
   <diagram name="DIAGRAMA DE SECUENCIA" id="KwOGLxxD-CtIhJ9gNiEi">
     <mxGraphModel dx="1313" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -174,65 +174,65 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PIo9MiLoGoIh61YsI7-Z" name="DIAGRAMA DE ACTVIDADES">
-    <mxGraphModel dx="2673" dy="1857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1379" dy="1188" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ulC-65OQu2rET_24B27R-27" value="Administrador de proyecto" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ulC-65OQu2rET_24B27R-27" value="Administrador de proyecto" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="940" y="130" width="2060" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-28" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fillColor=#000000" vertex="1" parent="ulC-65OQu2rET_24B27R-27">
+        <mxCell id="ulC-65OQu2rET_24B27R-28" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;fillColor=#000000" parent="ulC-65OQu2rET_24B27R-27" vertex="1">
           <mxGeometry x="50" y="50" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-29" value="Iniciar sesión en el sistema SSAP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ulC-65OQu2rET_24B27R-27">
+        <mxCell id="ulC-65OQu2rET_24B27R-29" value="Iniciar sesión en el sistema SSAP" style="rounded=1;whiteSpace=wrap;html=1;" parent="ulC-65OQu2rET_24B27R-27" vertex="1">
           <mxGeometry x="140" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-28" target="ulC-65OQu2rET_24B27R-29">
+        <mxCell id="ulC-65OQu2rET_24B27R-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-28" target="ulC-65OQu2rET_24B27R-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-31" target="ulC-65OQu2rET_24B27R-53">
+        <mxCell id="ulC-65OQu2rET_24B27R-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-31" target="ulC-65OQu2rET_24B27R-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-31" value="Ingresar a la interfaz de la tarea" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ulC-65OQu2rET_24B27R-27">
+        <mxCell id="ulC-65OQu2rET_24B27R-31" value="Ingresar a la interfaz de la tarea" style="rounded=1;whiteSpace=wrap;html=1;" parent="ulC-65OQu2rET_24B27R-27" vertex="1">
           <mxGeometry x="490" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-37" value="Ingresar a la interfaz del proyecto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="ulC-65OQu2rET_24B27R-27">
+        <mxCell id="ulC-65OQu2rET_24B27R-37" value="Ingresar a la interfaz del proyecto" style="rounded=1;whiteSpace=wrap;html=1;" parent="ulC-65OQu2rET_24B27R-27" vertex="1">
           <mxGeometry x="311" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-37" target="ulC-65OQu2rET_24B27R-31">
+        <mxCell id="ulC-65OQu2rET_24B27R-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-37" target="ulC-65OQu2rET_24B27R-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510.9999999999998" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-29" target="ulC-65OQu2rET_24B27R-37">
+        <mxCell id="ulC-65OQu2rET_24B27R-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-29" target="ulC-65OQu2rET_24B27R-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-53" target="ulC-65OQu2rET_24B27R-55">
+        <mxCell id="ulC-65OQu2rET_24B27R-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-53" target="ulC-65OQu2rET_24B27R-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-58" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ulC-65OQu2rET_24B27R-56">
+        <mxCell id="ulC-65OQu2rET_24B27R-58" value="SI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ulC-65OQu2rET_24B27R-56" vertex="1" connectable="0">
           <mxGeometry x="0.068" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-53" value="¿Asignara una subtarea?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ulC-65OQu2rET_24B27R-27">
+        <mxCell id="ulC-65OQu2rET_24B27R-53" value="¿Asignara una subtarea?" style="rhombus;whiteSpace=wrap;html=1;" parent="ulC-65OQu2rET_24B27R-27" vertex="1">
           <mxGeometry x="680" y="8.129999999999995" width="110" height="123.75" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-55" value="Ingresar a la interfaz de la subtarea" style="whiteSpace=wrap;html=1;" vertex="1" parent="ulC-65OQu2rET_24B27R-27">
+        <mxCell id="ulC-65OQu2rET_24B27R-55" value="Ingresar a la interfaz de la subtarea" style="whiteSpace=wrap;html=1;" parent="ulC-65OQu2rET_24B27R-27" vertex="1">
           <mxGeometry x="890" y="40.004999999999995" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-35" target="ulC-65OQu2rET_24B27R-64">
+        <mxCell id="ulC-65OQu2rET_24B27R-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-35" target="ulC-65OQu2rET_24B27R-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-66" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ulC-65OQu2rET_24B27R-65">
+        <mxCell id="ulC-65OQu2rET_24B27R-66" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ulC-65OQu2rET_24B27R-65" vertex="1" connectable="0">
           <mxGeometry x="-0.0047" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-35" value="¿Hay miembros del equipo disponibles?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="ulC-65OQu2rET_24B27R-27">
+        <mxCell id="ulC-65OQu2rET_24B27R-35" value="¿Hay miembros del equipo disponibles?" style="rhombus;whiteSpace=wrap;html=1;" parent="ulC-65OQu2rET_24B27R-27" vertex="1">
           <mxGeometry x="1215" y="8.13" width="110" height="123.75" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-53" target="ulC-65OQu2rET_24B27R-35">
+        <mxCell id="ulC-65OQu2rET_24B27R-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-53" target="ulC-65OQu2rET_24B27R-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="735" y="180.005" as="targetPoint" />
             <Array as="points">
@@ -242,60 +242,63 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-61" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ulC-65OQu2rET_24B27R-60">
+        <mxCell id="ulC-65OQu2rET_24B27R-61" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ulC-65OQu2rET_24B27R-60" vertex="1" connectable="0">
           <mxGeometry x="-0.1614" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-55" target="ulC-65OQu2rET_24B27R-35">
+        <mxCell id="ulC-65OQu2rET_24B27R-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="ulC-65OQu2rET_24B27R-27" source="ulC-65OQu2rET_24B27R-55" target="ulC-65OQu2rET_24B27R-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1210" y="70" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-64" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="ulC-65OQu2rET_24B27R-27">
+        <mxCell id="ulC-65OQu2rET_24B27R-64" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="ulC-65OQu2rET_24B27R-27" vertex="1">
           <mxGeometry x="1610" y="49.99999999999999" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-40" value="SSAP&amp;nbsp;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="ulC-65OQu2rET_24B27R-40" value="Asignacion" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="940" y="430" width="2060" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ulC-65OQu2rET_24B27R-40" source="ulC-65OQu2rET_24B27R-46" target="ulC-65OQu2rET_24B27R-41">
+        <mxCell id="ulC-65OQu2rET_24B27R-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ulC-65OQu2rET_24B27R-40" source="ulC-65OQu2rET_24B27R-46" target="ulC-65OQu2rET_24B27R-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ulC-65OQu2rET_24B27R-40" source="ulC-65OQu2rET_24B27R-42" target="ulC-65OQu2rET_24B27R-49">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1420" y="51.86999999999989" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ulC-65OQu2rET_24B27R-40" source="ulC-65OQu2rET_24B27R-49" target="ulC-65OQu2rET_24B27R-46">
+        <mxCell id="ulC-65OQu2rET_24B27R-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="ulC-65OQu2rET_24B27R-40" source="ulC-65OQu2rET_24B27R-49" target="ulC-65OQu2rET_24B27R-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ulC-65OQu2rET_24B27R-40" source="ulC-65OQu2rET_24B27R-36" target="ulC-65OQu2rET_24B27R-42">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-36" value="Asigna miembro de equipo a la tarea" style="whiteSpace=wrap;html=1;" vertex="1" parent="ulC-65OQu2rET_24B27R-40">
+        <mxCell id="ulC-65OQu2rET_24B27R-36" value="Asigna miembro de equipo a la tarea" style="whiteSpace=wrap;html=1;" parent="ulC-65OQu2rET_24B27R-40" vertex="1">
           <mxGeometry x="1210" y="-98.13" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-41" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="ulC-65OQu2rET_24B27R-40">
-          <mxGeometry x="1972" y="31.869999999999997" width="40" height="40" as="geometry" />
+        <mxCell id="ulC-65OQu2rET_24B27R-41" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" parent="ulC-65OQu2rET_24B27R-40" vertex="1">
+          <mxGeometry x="1970" y="70" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-42" value="Envia notificacion de asignacion" style="whiteSpace=wrap;html=1;" vertex="1" parent="ulC-65OQu2rET_24B27R-40">
-          <mxGeometry x="1210" y="21.869999999999997" width="120" height="60" as="geometry" />
+        <mxCell id="ulC-65OQu2rET_24B27R-46" value="Guarda en base de datos" style="whiteSpace=wrap;html=1;" parent="ulC-65OQu2rET_24B27R-40" vertex="1">
+          <mxGeometry x="1670" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-46" value="Guarda en base de datos" style="whiteSpace=wrap;html=1;" vertex="1" parent="ulC-65OQu2rET_24B27R-40">
-          <mxGeometry x="1680" y="21.869999999999997" width="120" height="60" as="geometry" />
+        <mxCell id="ulC-65OQu2rET_24B27R-49" value="Asociar la tarea o subtarea al usuario" style="whiteSpace=wrap;html=1;" parent="ulC-65OQu2rET_24B27R-40" vertex="1">
+          <mxGeometry x="1460" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-49" value="Asociar la tarea o subtarea al usuario" style="whiteSpace=wrap;html=1;" vertex="1" parent="ulC-65OQu2rET_24B27R-40">
-          <mxGeometry x="1460" y="21.869999999999997" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ulC-65OQu2rET_24B27R-35" target="ulC-65OQu2rET_24B27R-36">
+        <mxCell id="ulC-65OQu2rET_24B27R-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ulC-65OQu2rET_24B27R-35" target="ulC-65OQu2rET_24B27R-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ulC-65OQu2rET_24B27R-34" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ulC-65OQu2rET_24B27R-33">
+        <mxCell id="ulC-65OQu2rET_24B27R-34" value="Si" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ulC-65OQu2rET_24B27R-33" vertex="1" connectable="0">
           <mxGeometry x="-0.1571" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="4DzAtffZ45Rw1saGa4z1-1" value="Notificacion" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="940" y="690" width="2060" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ulC-65OQu2rET_24B27R-42" value="Envia notificacion de asignacion" style="whiteSpace=wrap;html=1;" parent="4DzAtffZ45Rw1saGa4z1-1" vertex="1">
+          <mxGeometry x="1210" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ulC-65OQu2rET_24B27R-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ulC-65OQu2rET_24B27R-42" target="ulC-65OQu2rET_24B27R-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2360" y="481.8699999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ulC-65OQu2rET_24B27R-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ulC-65OQu2rET_24B27R-36" target="ulC-65OQu2rET_24B27R-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.7" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Diagrama de clases">
     <mxGraphModel dx="2117" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -671,7 +671,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WxvAzzPVTnibD8zE_E4p" name="CRC">
-    <mxGraphModel dx="3915" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3531" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -704,11 +704,8 @@
         <mxCell id="rikWnUFVbN1arX-q3ELb-42" value="Proyecto" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="rikWnUFVbN1arX-q3ELb-40" vertex="1">
           <mxGeometry y="26" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="rikWnUFVbN1arX-q3ELb-43" value="Miembro del Equipo" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="rikWnUFVbN1arX-q3ELb-40" vertex="1">
-          <mxGeometry y="52" width="220" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="rikWnUFVbN1arX-q3ELb-44" value="Tareas " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="rikWnUFVbN1arX-q3ELb-40" vertex="1">
-          <mxGeometry y="78" width="220" height="26" as="geometry" />
+          <mxGeometry y="46" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="rikWnUFVbN1arX-q3ELb-45" value="SubTareas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="rikWnUFVbN1arX-q3ELb-40" vertex="1">
           <mxGeometry y="104" width="220" height="26" as="geometry" />
@@ -897,6 +894,9 @@
         <mxCell id="c56CxAAHxQxTC_rAlKc0-12" value="Administrador del Proyecto" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="c56CxAAHxQxTC_rAlKc0-7" vertex="1">
           <mxGeometry y="100" width="220" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="Uwflxjt-1Pb3vMArdks--1" value="Asignaciones" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="c56CxAAHxQxTC_rAlKc0-7">
+          <mxGeometry y="124" width="220" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="c56CxAAHxQxTC_rAlKc0-15" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-1820" y="840" width="590" height="190" as="geometry" />
         </mxCell>
@@ -923,17 +923,11 @@
         <mxCell id="c56CxAAHxQxTC_rAlKc0-22" value="COLABORADORES" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="c56CxAAHxQxTC_rAlKc0-21" vertex="1">
           <mxGeometry width="244.9056603773585" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="c56CxAAHxQxTC_rAlKc0-23" value="Proyecto" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="c56CxAAHxQxTC_rAlKc0-21" vertex="1">
+        <mxCell id="c56CxAAHxQxTC_rAlKc0-23" value="Administrador de proyectos" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="c56CxAAHxQxTC_rAlKc0-21" vertex="1">
           <mxGeometry y="26" width="244.9056603773585" height="26" as="geometry" />
         </mxCell>
         <mxCell id="c56CxAAHxQxTC_rAlKc0-24" value="Miembro del Equipo" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="c56CxAAHxQxTC_rAlKc0-21" vertex="1">
           <mxGeometry y="52" width="244.9056603773585" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="c56CxAAHxQxTC_rAlKc0-25" value="Tareas " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="c56CxAAHxQxTC_rAlKc0-21" vertex="1">
-          <mxGeometry y="78" width="244.9056603773585" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="c56CxAAHxQxTC_rAlKc0-26" value="SubTareas" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="c56CxAAHxQxTC_rAlKc0-21" vertex="1">
-          <mxGeometry y="104" width="244.9056603773585" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

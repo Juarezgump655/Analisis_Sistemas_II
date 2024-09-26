@@ -26,15 +26,15 @@ public class WebSecurityConfig {
     @Bean
     SecurityFilterChain web(HttpSecurity http) throws Exception {
         http
-                .csrf(csrf -> csrf.disable()) // (2)
+                .csrf(csrf -> csrf.disable())  // Deshabilitar CSRF para APIs stateless
                 .authorizeHttpRequests((authorize) -> authorize
-                        .requestMatchers("/publico/**", "http://localhost:8081/rutas-optimas/api/swagger-ui/index.html").permitAll()
-                        .anyRequest().authenticated()
+                        .requestMatchers("/publico/**", "/ws/**", "/rutas-optimas/api/swagger-ui/index.html").permitAll()  // Permitir rutas públicas y WebSocket
+                        .anyRequest().authenticated()  // Proteger el resto
                 )
-                .cors(withDefaults())
-                .addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class)
+                .cors(withDefaults())  // Permitir CORS
+                .addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class)  // Filtro JWT
                 .sessionManagement((session) -> session
-                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
+                        .sessionCreationPolicy(SessionCreationPolicy.STATELESS)  // Sin estado
                 );
         return http.build();
     }

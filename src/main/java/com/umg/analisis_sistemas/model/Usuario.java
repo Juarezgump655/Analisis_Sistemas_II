@@ -1,4 +1,4 @@
-package model;
+package com.umg.analisis_sistemas.model;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -12,7 +12,7 @@ import java.util.Calendar;
 @Getter
 @Setter
 @Entity
-@Table(name = "usuarios", schema = "rutas_optimas")
+@Table(name = "usuarios", schema = "analisis_sistemas")
 @NoArgsConstructor
 public class Usuario {
     @Id

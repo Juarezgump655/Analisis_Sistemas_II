@@ -1,4 +1,4 @@
-package seguridad;
+package com.umg.analisis_sistemas.seguridad;
 
 
 import jakarta.servlet.FilterChain;

@@ -1,13 +1,13 @@
-package seguridad;
+package com.umg.analisis_sistemas.seguridad;
 
-import model.Usuario;
+import com.umg.analisis_sistemas.repositorios.UsuarioRepository;
+import com.umg.analisis_sistemas.model.Usuario;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-import repositorios.UsuarioRepository;
 
 import java.util.ArrayList;
 import java.util.List;

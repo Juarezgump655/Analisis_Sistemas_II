@@ -1,4 +1,4 @@
-package model;
+package com.umg.analisis_sistemas.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;

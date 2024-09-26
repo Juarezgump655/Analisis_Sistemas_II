@@ -1,4 +1,4 @@
-package seguridad;
+package com.umg.analisis_sistemas.seguridad;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

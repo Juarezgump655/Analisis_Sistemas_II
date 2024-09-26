@@ -1,4 +1,4 @@
-package exceptions;
+package com.umg.analisis_sistemas.exceptions;
 
 
 import java.util.List;

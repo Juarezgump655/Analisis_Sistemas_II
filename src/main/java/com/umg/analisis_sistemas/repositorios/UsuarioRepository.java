@@ -1,6 +1,6 @@
-package repositorios;
+package com.umg.analisis_sistemas.repositorios;
 
-import model.Usuario;
+import com.umg.analisis_sistemas.model.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

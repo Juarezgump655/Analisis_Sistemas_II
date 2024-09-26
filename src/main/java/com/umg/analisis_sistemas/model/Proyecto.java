@@ -45,4 +45,5 @@ public class Proyecto {
     @Temporal(TemporalType.TIMESTAMP)
     @JsonFormat(pattern = "dd-MM-yyyy")
     private Date fechaCreacion;
+
 }

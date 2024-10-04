@@ -46,4 +46,16 @@ public class Proyecto {
     @JsonFormat(pattern = "dd-MM-yyyy")
     private Date fechaCreacion;
 
+    @Override
+    public String toString() {
+        return "Proyecto{" +
+                "idProyecto=" + idProyecto +
+                ", nombre='" + nombre + '\'' +
+                ", descripcion='" + descripcion + '\'' +
+                ", fechaInicio=" + fechaInicio +
+                ", fechaFin=" + fechaFin +
+                ", idAdmin='" + idAdmin + '\'' +
+                ", fechaCreacion=" + fechaCreacion +
+                '}';
+    }
 }

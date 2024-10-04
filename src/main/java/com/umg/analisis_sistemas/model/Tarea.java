@@ -22,7 +22,7 @@ public class Tarea {
     private Long idTarea;
 
     @Column(name = "id_proyectos", nullable = false)
-    private Integer idProyectos;
+    private Long idProyectos;
 
     @Column(name = "nombre", length = 50, nullable = false)
     private String nombre;
@@ -51,6 +51,6 @@ public class Tarea {
     @JsonFormat(pattern = "dd-MM-yyyy")
     private Date fechaCreacion;
 
-    @Column(name = "estado", columnDefinition = "integer default 4")
+    @Column(name = "estado", columnDefinition = "integer default 4", insertable = false)
     private Integer estado;
 }

@@ -1,11 +1,13 @@
 package com.umg.analisis_sistemas.controllers;
 
+import com.umg.analisis_sistemas.dtos.TareasConSub;
 import com.umg.analisis_sistemas.exceptions.ErrorEnum;
 import com.umg.analisis_sistemas.exceptions.MSCapiException;
-import com.umg.analisis_sistemas.model.Tarea;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.umg.analisis_sistemas.servicios.TareaSvc;
+
+import java.util.logging.Logger;
 
 @RestController
 @CrossOrigin(value = "*")
@@ -15,11 +17,36 @@ public class TareasControllers {
     @Autowired
     private TareaSvc tareaSvc;
 
+    private static Logger logger
+            = Logger.getLogger(
+            TareasControllers.class.getName());
+
     @PostMapping("/crearTareas")
-    public void crearTareas(@RequestBody Tarea tareas) {
+    public void crearTareas(@RequestBody TareasConSub tareasConSub) {
         try{
-            tareaSvc.creaTarea(tareas);
+            tareaSvc.creaTarea(tareasConSub);
         }catch (Exception e) {
+            logger.info("Error al crear la tarea"+ e.getMessage());
+            throw new MSCapiException(ErrorEnum.I_DESCONOCIDO);
+        }
+    }
+
+    @PutMapping("/updateEstado/{idTarea}/{estado}")
+    public void updateEstado(@PathVariable("estado") String estado, @PathVariable("idTarea")  Long idTarea) {
+        try{
+            tareaSvc.updateEstado(estado, idTarea);
+        }catch (Exception e) {
+            logger.info("Error al actualizar el estado de la tarea"+ e.getMessage());
+            throw new MSCapiException(ErrorEnum.I_DESCONOCIDO);
+        }
+    }
+
+    @PutMapping("/updateAsignado/{idTarea}/{asignado}")
+    public void updateAsignado(@PathVariable("asignado") String asignado, @PathVariable("idTarea")  Long idTarea) {
+        try{
+            tareaSvc.updateAsignado(asignado, idTarea);
+        }catch (Exception e) {
+            logger.info("Error al actualizar el asignado de la tarea"+ e.getMessage());
             throw new MSCapiException(ErrorEnum.I_DESCONOCIDO);
         }
     }

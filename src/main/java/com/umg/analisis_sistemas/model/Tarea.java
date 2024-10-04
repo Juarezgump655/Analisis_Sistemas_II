@@ -31,12 +31,10 @@ public class Tarea {
     private String descripcion;
 
     @Column(name = "fecha_inicio")
-    @JsonFormat(pattern = "dd-MM-yyyy")
     @Temporal(TemporalType.DATE)
     private Date fechaInicio;
 
     @Column(name = "fecha_fin")
-    @JsonFormat(pattern = "dd-MM-yyyy")
     @Temporal(TemporalType.DATE)
     private Date fechaFin;
 
@@ -51,6 +49,6 @@ public class Tarea {
     @JsonFormat(pattern = "dd-MM-yyyy")
     private Date fechaCreacion;
 
-    @Column(name = "estado", columnDefinition = "integer default 4", insertable = false)
+    @Column(name = "estado", columnDefinition = "integer default 4")
     private Integer estado;
 }

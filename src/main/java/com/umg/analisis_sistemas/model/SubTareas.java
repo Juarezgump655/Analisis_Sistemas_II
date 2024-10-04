@@ -10,7 +10,7 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 @Entity
-@Table(name = "tareas", schema = "analisis_sistemas")
+@Table(name = "sub_tareas", schema = "analisis_sistemas")
 public class SubTareas {
 
     @Id
@@ -19,7 +19,7 @@ public class SubTareas {
     private Long idSubTareas;
 
     @Column(name = "id_tarea", nullable = false)
-    private Integer idTarea;
+    private Long idTarea;
 
     @Column(name = "nombre", length = 50, nullable = false)
     private String nombre;
@@ -28,12 +28,10 @@ public class SubTareas {
     private String descripcion;
 
     @Column(name = "fecha_inicio")
-    @JsonFormat(pattern = "dd-MM-yyyy")
     @Temporal(TemporalType.DATE)
     private Date fechaInicio;
 
     @Column(name = "fecha_fin")
-    @JsonFormat(pattern = "dd-MM-yyyy")
     @Temporal(TemporalType.DATE)
     private Date fechaFin;
 

@@ -28,6 +28,18 @@ public class SubTareaSvcImpl  implements SubTareaSvc {
         this.subTareasRepository.saveAll(this.verificarEstado(subTareas));
     }
 
+    @Override
+    @Transactional
+    public void crearTarea(SubTareas subTarea) {
+        this.subTareasRepository.save(this.verificarEstado(subTarea));
+    }
+
+    @Override
+    @Transactional
+    public void asignarTarea(String asignadaA, Long idTarea) {
+        this.subTareasRepository.asignarTarea(asignadaA, idTarea);
+    }
+
 
     private SubTareas verificarEstado(SubTareas tarea) {
         if(!(tarea.getAsignadoA() == null|| tarea.getAsignadoA().isEmpty() )) {

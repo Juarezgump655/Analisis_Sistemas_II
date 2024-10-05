@@ -9,7 +9,9 @@ public enum ErrorEnum {
 
     I_DESCONOCIDO                           (1000, EstadoHttp.INTERNAL_SERVER_ERROR, "Error desconocido, comuniquese con el administrador del sitio"),
     USUARIO_NOT_FOUND                       (1001, EstadoHttp.BAD_REQUEST, "Error Usuario no encontrado"),
-    I_PRIMARY_KEY                           (1002, EstadoHttp.INTERNAL_SERVER_ERROR, "No se pudo crear la llave primaria para el nuevo registro");
+    I_PRIMARY_KEY                           (1002, EstadoHttp.INTERNAL_SERVER_ERROR, "No se pudo crear la llave primaria para el nuevo registro"),
+    I_PROYECTO_S_TAREAS                     (1003, EstadoHttp.BAD_REQUEST, "El proyecto no tiene tareas asignadas, por favor asigne tareas al proyecto"),
+    I_USUARIO_S_TAREAS                      (1004, EstadoHttp.BAD_REQUEST, "El usuario no tiene tareas asignadas");
 
 //______________________________________________________________________________
     /**

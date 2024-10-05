@@ -3,10 +3,12 @@ package com.umg.analisis_sistemas.controllers;
 import com.umg.analisis_sistemas.dtos.TareasConSub;
 import com.umg.analisis_sistemas.exceptions.ErrorEnum;
 import com.umg.analisis_sistemas.exceptions.MSCapiException;
+import com.umg.analisis_sistemas.projection.TableroTareas;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import com.umg.analisis_sistemas.servicios.TareaSvc;
 
+import java.util.List;
 import java.util.logging.Logger;
 
 @RestController
@@ -50,5 +52,34 @@ public class TareasControllers {
             throw new MSCapiException(ErrorEnum.I_DESCONOCIDO);
         }
     }
+
+    @GetMapping("/getTableroPorProyecto/{idProyectos}")
+    public List<TableroTareas> getTableroPorProyecto(@PathVariable("idProyectos") Long idProyectos) {
+        try{
+           return tareaSvc.getTableroPorProyecto(idProyectos);
+        }catch (MSCapiException e) {
+            logger.info("Error específico al obtener el tablero por proyecto: " + e.getMessage());
+            throw e;
+        } catch (Exception e) {
+            logger.info("Error desconocido al obtener el tablero por proyecto: " + e.getMessage());
+            throw new MSCapiException(ErrorEnum.I_DESCONOCIDO);
+        }
+    }
+
+    @GetMapping("/getTableroPorUsuario/{asignadoA}")
+    public List<TableroTareas> getTableroPorUsuario(@PathVariable("asignadoA") String asignadoA) {
+        try{
+           return tareaSvc.getTableroPorUsuario(asignadoA);
+        }catch (MSCapiException e) {
+            logger.info("Error específico al obtener el tablero por usuario: " + e.getMessage());
+            throw e;
+        } catch (Exception e) {
+            logger.info("Error desconocido al obtener el tablero por usuario: " + e.getMessage());
+            throw new MSCapiException(ErrorEnum.I_DESCONOCIDO);
+        }
+    }
+
+
+
 
 }

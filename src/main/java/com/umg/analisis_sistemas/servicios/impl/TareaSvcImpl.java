@@ -1,8 +1,11 @@
 package com.umg.analisis_sistemas.servicios.impl;
 
 import com.umg.analisis_sistemas.dtos.TareasConSub;
+import com.umg.analisis_sistemas.exceptions.ErrorEnum;
+import com.umg.analisis_sistemas.exceptions.MSCapiException;
 import com.umg.analisis_sistemas.model.SubTareas;
 import com.umg.analisis_sistemas.model.Tarea;
+import com.umg.analisis_sistemas.projection.TableroTareas;
 import com.umg.analisis_sistemas.repositorios.TareaRepository;
 import com.umg.analisis_sistemas.servicios.SubTareaSvc;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -87,6 +90,41 @@ public class TareaSvcImpl implements TareaSvc {
         logger.info("Actualizando asignado de tarea");
         tareaRepository.updateAsignado(asignado, idTarea);
     }
+
+    @Override
+    @Transactional(readOnly = true)
+    public List<TableroTareas> getTableroPorProyecto(Long idProyectos) {
+        logger.info("Obteniendo tablero por proyecto");
+
+        return  validarTableroPorProyecto(tareaRepository.getTableroPorProyecto(idProyectos));
+    }
+
+    @Override
+    @Transactional(readOnly = true)
+    public List<TableroTareas> getTableroPorUsuario(String asignadoA) {
+        return  validarTableroPorUsuario(tareaRepository.getTableroPorUsuario(asignadoA));
+    }
+
+
+    private List<TableroTareas>  validarTableroPorProyecto(List<TableroTareas> tareas) {
+        if(tareas == null || tareas.isEmpty()){
+            logger.info("No se encontraron tareas para el proyecto");
+            throw new MSCapiException(ErrorEnum.I_PROYECTO_S_TAREAS);
+        }
+
+        return tareas;
+    }
+
+    private List<TableroTareas>  validarTableroPorUsuario(List<TableroTareas> tareas) {
+        if(tareas == null || tareas.isEmpty()){
+            logger.info("No se encontraron tareas para el usuario");
+            throw new MSCapiException(ErrorEnum.I_USUARIO_S_TAREAS);
+        }
+
+        return tareas;
+    }
+
+
 
 
 }
